@@ -199,7 +199,7 @@ jobs:
         run: |
           Write-Host "Building site for ${{ (needs.Setup.outputs.SAFeDelusion_AzureSitesConfig) }}";
           $env:HUGO_ENV = "${{ (needs.Setup.outputs.SAFeDelusion_AzureSitesConfig) }}";
-          hugo --config hugo.yaml,hugo.${{ (needs.Setup.outputs.SAFeDelusion_AzureSitesConfig) }}.yaml --logLevel info; # --minify --source site
+          hugo --source site --config hugo.yaml,hugo.${{ (needs.Setup.outputs.SAFeDelusion_AzureSitesConfig) }}.yaml --logLevel info; # --minify
 
       - name: Copy Files
         shell: pwsh
