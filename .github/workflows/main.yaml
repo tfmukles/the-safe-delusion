@@ -62,8 +62,8 @@ jobs:
       - uses: actions/create-github-app-token@v1
         id: app-token
         with:
-          app-id: ${{ secrets.SAFeDelusion_BOT_APP_ID }}
-          private-key: ${{ secrets.SAFeDelusion_BOT_CLIENTSECRET }}
+          app-id: ${{ secrets.NKDAGILITY_BOT_APP_ID }}
+          private-key: ${{ secrets.NKDAGILITY_BOT_CLIENTSECRET }}
       - uses: dorny/paths-filter@v3
         id: filter
         with:
@@ -244,11 +244,6 @@ jobs:
         with:
           name: Site
           path: ./_site
-      - name: Download a single artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: API
-          path: ./_api
 
       - name: Merge Configuration Files
         run: |
@@ -316,8 +311,8 @@ jobs:
       - uses: actions/create-github-app-token@v1
         id: app-token
         with:
-          app-id: ${{ secrets.SAFeDelusion_BOT_APP_ID }}
-          private-key: ${{ secrets.SAFeDelusion_BOT_CLIENTSECRET }}
+          app-id: ${{ secrets.NKDAGILITY_BOT_APP_ID }}
+          private-key: ${{ secrets.NKDAGILITY_BOT_CLIENTSECRET }}
 
       - name: Build and Deploy
         uses: Azure/static-web-apps-deploy@v1
