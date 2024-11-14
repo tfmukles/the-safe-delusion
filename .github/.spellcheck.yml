@@ -3,6 +3,8 @@ matrix:
     sources:
       - "**/*.md"
       - "*.md"
+      - "**/*.html"
+      - "*.html"
     default_encoding: utf-8
     aspell:
       lang: en
