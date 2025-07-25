@@ -1,2 +1,4 @@
 Mailchimp
 stylesheet
+defaultSite
+lang
