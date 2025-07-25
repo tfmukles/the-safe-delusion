@@ -8,21 +8,30 @@ summaryLength: 30
 
 enableRobotsTXT: true
 
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: SAFe Delusion
+    params:
+      description: SAFe Delusion is a community-driven resource that provides evidence-based insights and expert opinions on the SAFe framework, helping decision-makers make informed choices about Agile scaling.
+      keywords: SAFe, Delusion, Agile, Framework, Decision-Makers
+
 # Site-wide parameters
 params:
   description: "Information for decision-makers considering the SAFe framework - Curated review of facts, evidence, and opinions from relevant sources without vested interests, to help decision-makers make informed choices and get better results"
   keywords: "SAFe, Scaled Agile Framework, Agile"
   og_image: "/images/og-image.jpg" # URL to the default Open Graph image
   githubUrl: "https://github.com/nkdAgility/the-safe-delusion"
-  previewSiteUrl: https://preview.safedelusion.com/
+  previewSiteUrl: https://purple-tree-00e22e403-preview.westeurope.5.azurestaticapps.net
   productionSiteUrl: https://safedelusion.com/
-  logo_image: "/images/guide-1-logo-512.png" # URL to the site logo image
-  menu_logo: "/images/guides-logo-dark.png" # URL to the main menu logo image
+  logo_image: "/images/safe-delusion-logo.png" # URL to the site logo image
+  menu_logo: "/images/safe-delusion-logo.png" # URL to the main menu logo image
   siteProdUrl: "https://safedelusion.com"
   supportEmail: "support@safedelusion.com"
   brand:
     bg_colour: "#135289"
-  AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
+  AzureSitesConfig: "#{SAFeDelusion_AzureSitesConfig}#"
   GitVersion_SemVer: "v#{GitVersion.SemVer}#"
   GoogleTagManagerID: "G-NNPNHB0GEB" # Replace with your actual GTM ID
 
