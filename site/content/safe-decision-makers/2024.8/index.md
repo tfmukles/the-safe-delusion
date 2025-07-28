@@ -1,14 +1,12 @@
 ---
 title: Information for decision-makers considering SAFe
-description: Curated review of facts, evidence, and opinions from relevant sources without vested interests, to help decision-makers make informed choices and get better results
+description: Independent, evidence-based guide for decision-makers evaluating SAFe. Case studies, expert insights, and agile alternatives without vendor spin.
 date: 2024-08-01T09:00:00Z
 version: 2024.8
 keywords:
-  - Guide 1
-  - Best Practices
-author:
-  - Jane Smith
-  - Anonymous Author
+  - SAFe
+  - Scaled Agile
+  - Scaled Agile Framework
 type: guide
 lang: en
 mainfont: "Times New Roman"
@@ -17,9 +15,7 @@ monofont: "Courier New"
 sitemap:
   priority: 1.0
 guide_whatis: |
-  This document aims to be a unifying reference for the community by offering the minimal guidance for best practices. Depending on the context, various approaches can complement this methodology, allowing it to accommodate the full spectrum of value delivery and organizational challenges.
-
-   This guide has conventions for some terms. They are not meant to replace any other existing definitions but to clarify how they are intended to be applied here.
+  Independent, evidence-based guide for decision-makers evaluating SAFe. Case studies, expert insights, and agile alternatives without vendor spin.
 ---
 
 We are uncovering better ways of working by doing it and helping others do it.
