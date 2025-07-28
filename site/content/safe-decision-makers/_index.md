@@ -1,7 +1,7 @@
 ---
 title: "Information for decision-makers considering SAFe Framework"
 short_title: "SAFe for Decision Makers"
-description: "This document is a comprehensive reference created by a community of practitioners. It was developed with the help and support of many contributors. We pledge to continue promoting a safe, diverse, and inclusive community so that all who participate can benefit. As a starting point to that end, this document is offered free to anyone who wishes to use it."
+description: Independent, evidence-based guide for decision-makers evaluating SAFe. Case studies, expert insights, and agile alternatives without vendor spin.
 Type: "guide"
 Layout: "root"
 brand:
