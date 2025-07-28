@@ -10,6 +10,7 @@ guide_overview: |
   [SAFe Decision Guide](/safe-decision-makers/latest) is a practitioner-curated review of evidence and expert perspectives to support informed decision-making in large-scale Agile adoptions.
 guide_logo: "safe-decision-guide-logo.png"
 weight: 1
+discussionForumUrl: "https://groups.google.com/g/agileinformeddecisionmaking"
 guide_license: |
   This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License.
 guide_comparison:

@@ -8,3 +8,5 @@ github.com/nkdAgility/HugoGuides/module v0.6.3 h1:S2IQmkZpNDD7Eu5qb7pFojgYbeDciv
 github.com/nkdAgility/HugoGuides/module v0.6.3/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=
 github.com/nkdAgility/HugoGuides/module v0.6.4 h1:5MCak7zvxEJ9N0S6C74s22QNqhsiOoX2NMJ7tfMfOwk=
 github.com/nkdAgility/HugoGuides/module v0.6.4/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=
+github.com/nkdAgility/HugoGuides/module v0.6.8 h1:9Y4fJ/+6cfx7qEOnSleQPb7oldcseR6TepJQo88EV6k=
+github.com/nkdAgility/HugoGuides/module v0.6.8/go.mod h1:VGUy7t0I5Ba4FWVFpuBzVI1RN/cOBvcWSeYGsAj37tE=

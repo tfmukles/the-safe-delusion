@@ -5,7 +5,12 @@
       <div class="row justify-content-center">
         <div class="col-12 text-center mb-5">
           <h1 class="display-4 text-dark mb-4">{{ .Site.Title }}</h1>
-          <p class="lead text-muted fs-5">{{ i18n "guides_intro_text" . }}</p>
+          <h2 class="display-8 text-dark mb-4">Information for decision-makers considering the SAFe framework</h2>
+          <p class="lead text-muted fs-5">Curated review of facts, evidence, and opinions from relevant sources without vested interests, to help decision-makers make informed choices and get better results</p>
+          <p class="card-text text-muted mb-3">
+                      Now that Agile passed the early adopter stage, there are many companies interested in adopting it, and many practitioners interested in learning it. Yet those companies and practitioners without extensive Agile experience have a hard
+                      time evaluating what will bring them value and what not. The information collected in this document is to help them make an informed decision.
+                    </p>
         </div>
       </div>
 
@@ -17,7 +22,7 @@
         {{ end }}
         {{/* {{ $sections = lang.Merge $defaultSite.sections $sections }} */}}
         {{- range $sections.ByWeight }}
-          <div class="col-12 col-lg-12 col-xl-12 p-3">
+          <div class="col-12 col-lg-6 col-xl-6 p-3">
             <div class="card h-100 shadow-sm border-0" style="background: #ffffff;">
               <div class="card-header bg-white border-0 text-center py-3">
                 <h5 class="card-title mb-2 text-dark">{{ .Params.short_title | default .Title }}</h5>
@@ -68,45 +73,7 @@
             </div>
           </div>
         {{- end }}
-      </div>
-
-      <!-- Information Cards - Two left, One right -->
-      <div class="row justify-content-center mt-5 mb-4 g-3">
-        <!-- Left Column: Two stacked cards -->
-        <div class="col-12 col-lg-6 d-flex flex-column">
-          <!-- Not Sure Which to Use Card -->
-          <div class="card shadow-sm border-0 mb-3 flex-fill" style="background: linear-gradient(45deg, #fff3cd 0%, #f8f9fa 100%);">
-            <div class="card-header bg-transparent border-0 text-center py-3">
-              <h3 class="card-title mb-0 text-primary">
-                <i class="fa-solid fa-compass me-2"></i>
-                {{ i18n "not_sure_which_to_use_title" . }}
-              </h3>
-            </div>
-            <div class="card-body text-center px-4 pb-4">
-              <div class="fs-6 text-dark">
-                {{ .Params.not_sure_which_to_use | markdownify }}
-              </div>
-            </div>
-          </div>
-
-          <!-- What are the Guides Card -->
-          <div class="card shadow-sm border-0 flex-fill" style="background: linear-gradient(45deg, #f0f9ff 0%, #f8f9fa 100%);">
-            <div class="card-header bg-transparent border-0 text-center py-3">
-              <h3 class="card-title mb-0 text-primary">
-                <i class="fa-solid fa-question-circle me-2"></i>
-                {{ i18n "what_is_guides_title" . }}
-              </h3>
-            </div>
-            <div class="card-body text-center px-4 pb-4">
-              <div class="text-muted">
-                {{ .Site.Params.description | markdownify }}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Column: Open Source & Community Card -->
-        <div class="col-12 col-lg-6">
+ <div class="col-12 col-lg-6">
           <div class="card shadow-sm border-0 h-100" style="background: linear-gradient(45deg, #e3f2fd 0%, #f8f9fa 100%);">
             <div class="card-header bg-transparent border-0 text-center py-3">
               <h3 class="card-title mb-0 text-primary">
@@ -115,9 +82,12 @@
               </h3>
             </div>
             <div class="card-body text-center px-4 pb-4 d-flex flex-column">
-              <p class="card-text text-muted mb-3">{{ i18n "open_source_description" . }}</p>
+                    <p class="card-text text-muted mb-2">
+                      Many of the larger companies and novice practitioners look at the marketing from SAFe, and they don’t know if they can trust it or not. In this document members of the Agile community are collecting available information including on
+                      these marketing stories. Some practitioners have been there and know the difference between marketing and real stories, others know not only how things started yet also how things are going now.
+                    </p>
               <div class="mt-auto">
-                <a href="{{ .Site.Params.githubUrl }}/discussions" class="btn btn-primary btn-lg px-4 mb-2" target="_blank">
+                <a href="https://groups.google.com/g/agileinformeddecisionmaking" class="btn btn-primary btn-lg px-4 mb-2" target="_blank">
                   <i class="fa-solid fa-comments me-2"></i>{{ i18n "join_discussion_button" }}
                 </a>
               </div>
@@ -146,6 +116,104 @@
           </div>
         </div>
       </div>
+
+      <!-- Information Cards - Two left, One right -->
+      <div class="row justify-content-center mt-5 mb-4 g-3">
+        <!-- Left Column: Two stacked cards -->
+        <div class="col-12 col-lg-6 d-flex flex-column">
+          <!-- Not Sure Which to Use Card -->
+          <div class="card shadow-sm border-0 mb-3 flex-fill" style="background: linear-gradient(45deg, #fff3cd 0%, #f8f9fa 100%);">
+            <div class="card-header bg-transparent border-0 text-center py-3">
+              <h3 class="card-title mb-0 text-primary">
+                <i class="fa-solid fa-compass me-2"></i>
+                A message to SAFe Coaches &amp; Scaled Agile Inc.
+              </h3>
+            </div>
+            <div class="card-body text-center px-4 pb-4">
+              <div class="fs-6 text-dark">
+                <p>
+                  Many SAFe coaches and trainers are friends, respected co-workers, and competent Agile professionals. The content of this document is not intended as a reflection of their talent, professionalism and expertise, but as a reflection of the
+                  SAFe framework.
+                </p>
+                <p>Scaled Agile Inc. is invited to engage with the Agile community and is encouraged to act on the parts of the feedback that are constructive and useful.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- What are the Guides Card -->
+          <div class="card shadow-sm border-0 flex-fill" style="background: linear-gradient(45deg, #f0f9ff 0%, #f8f9fa 100%);">
+            <div class="card-header bg-transparent border-0 text-center py-3">
+              <h3 class="card-title mb-0 text-primary">
+                <i class="fa-solid fa-question-circle me-2"></i>
+                Conclusions
+              </h3>
+            </div>
+            <div class="card-body text-center px-4 pb-4">
+              <div class="text-muted">
+                <p class="lead">Each one of the top experts' opinions, creator of a practice integrated into SAFe, scrutinised case study, and practitioner opinion, taken alone in isolation is not enough to draw a conclusion.</p>
+                    <p class="lead">At the same time all of them together, with their similarities, seem to suggest that the implementations of SAFe tend to:</p>
+                    <p class="lead">
+                      - lack fundamental elements of good Agile that are vital to achieving agility<br />- amplify some of the well-known problems and limitations of pre-Agile traditional solutions<br />- spend a lot of time and effort to learn and adopt
+                      outdated practices, or 2nd best
+                    </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Open Source & Community Card -->
+       <div class="col-12 col-lg-6">
+          <div class="card shadow-sm border-0" style="background: linear-gradient(45deg, #fff5f5 0%, #f8f9fa 100%);">
+            <div class="card-header bg-transparent border-0 text-center py-4">
+              <h2 class="card-title mb-0 text-primary fw-bold">
+                <i class="fa-solid fa-chart-line me-2"></i>
+                General SAFe trends
+              </h2>
+            </div>
+            <div class="card-body px-5 pb-5">
+              <div class="text-center mb-4">
+                <p class="lead text-dark fw-semibold">The adoption of SAFe and its market share are still growing.</p>
+                <p class="lead text-muted">The less flattering trends below come from anecdotal evidence.</p>
+              </div>
+              
+              <div class="row">
+                <div class="col-12">
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <i class="fa-solid fa-circle-exclamation text-warning me-2"></i>
+                      <span class="text-dark">There is a growing number of Agile professionals and certified SAFe professionals that decided not to work again with clients adopting SAFe. They declared it publicly, it occasionally comes up at meetings among Agile professionals, and some recruiters reported candidates refusing job opportunities because of SAFe.</span>
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa-solid fa-circle-exclamation text-warning me-2"></i>
+                      <span class="text-dark">The number of experienced Agile professionals publicly criticising SAFe is also increasing.</span>
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa-solid fa-circle-exclamation text-warning me-2"></i>
+                      <span class="text-dark">There is a growing number of sr leaders and former employees of organisations that tried to adopt SAFe that are sharing stories of stalled and abandoned adoptions, adoptions that went wrong, and problems caused by SAFe.</span>
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa-solid fa-circle-exclamation text-warning me-2"></i>
+                      <span class="text-dark">The number and frequency of posts on social media and articles in online magazines about failed SAFe adoptions is also increasing.</span>
+                    </li>
+                    <li class="mb-3">
+                      <i class="fa-solid fa-circle-plus text-success me-2"></i>
+                      <span class="text-dark">More organisations are asking for Agile professionals that are framework agnostic, and that have enough experience to work without the need of a guardrail from a scaled framework.</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="mt-4 p-3 rounded" style="background-color: #f8f9fa;">
+                <p class="mb-0 text-muted fst-italic">
+                  <i class="fa-solid fa-info-circle me-2"></i>
+                  It is not possible to say if these trends are ordinary by-products of the increasing adoptions of SAFe, if they are due to SAFe itself, the quality of its implementations, the characteristic of the organisations choosing that framework, or other factors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 {{- end }}
