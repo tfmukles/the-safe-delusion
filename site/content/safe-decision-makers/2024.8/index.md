@@ -1,7 +1,7 @@
 ---
 title: Information for decision-makers considering SAFe
 description: Curated review of facts, evidence, and opinions from relevant sources without vested interests, to help decision-makers make informed choices and get better results
-date: 2025-05-01T09:00:00Z
+date: 2024-08-01T09:00:00Z
 version: 2024.8
 keywords:
   - Guide 1
@@ -15,7 +15,7 @@ mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 sitemap:
-  priority: 0.6
+  priority: 1.0
 guide_whatis: |
   This document aims to be a unifying reference for the community by offering the minimal guidance for best practices. Depending on the context, various approaches can complement this methodology, allowing it to accommodate the full spectrum of value delivery and organizational challenges.
 
