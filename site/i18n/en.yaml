@@ -39,7 +39,7 @@
   translation: "Open Source & Community Driven"
 
 - id: open_source_description
-  translation: "The SAFe Decision Guide is an open-source project built through community collaboration. We welcome your suggestions, feedback, and contributions to improve its clarity, accuracy, and usefulness. While it focuses on SAFe, it also references related materials such as The Guide 1 and The Guide 2 for context. Together, we aim to provide valuable guidance to the global Agile community and support better decisions that improve the flow of potential and realised value."
+  translation: "The SAFe Decision Guide is an open-source project built through community collaboration. We welcome your suggestions, feedback, and contributions to improve its clarity, accuracy, and usefulness."
 
 - id: at_a_glance_title
   translation: "At a Glance"
@@ -166,10 +166,10 @@
   translation: "Community Translations"
 
 - id: download_current_version_released
-  translation: "The current official version of the {{ .Site.Title }} was released in"
+  translation: "The current official version of the **{{ .Title }}** was released in"
 
 - id: download_older_translations_notice
-  translation: "Translations of the {{ .Site.Title }} with older dates may not contain the most recent information."
+  translation: "Translations of the **{{ .Title }}** with older dates may not contain the most recent information."
 
 - id: download_table_language
   translation: "Language"
@@ -423,7 +423,7 @@
 
 # Additional translations for version-card.html
 - id: current_open_guide_label
-  translation: "Current Open Guide"
+  translation: "Current"
 
 - id: active_status_label
   translation: "Active"
