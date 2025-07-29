@@ -21,11 +21,12 @@ guide_comparison:
   content: "Case studies, expert opinions, and alternatives"
   update_model: "Open, collaborative, evolving"
 which_to_use_summary: |
-  Use this guide if you're exploring whether SAFe is a good fit for your organisation. It brings together case studies, expert analyses, and critical insights to help you assess risks, benefits, and potential alternatives.
+  Now that Agile passed the early adopter stage, there are many companies interested in adopting it, and many practitioners interested in learning it. Yet those companies and practitioners without extensive Agile experience have a hard time evaluating what will bring them value and what not. The information collected in this document is to help them make an informed decision.
 layman_description: |
   This guide is a plain-language resource to help leaders understand what SAFe is, what challenges others have faced with it, and how to make better choices for their teams. It summarises real-world experiences and provides practical advice.
 practitioner_description: |
   This is a curated, evidence-based reference for practitioners and leaders considering SAFe. It compiles lessons learned from real case studies, expert assessments, and alternatives. It is designed to expose potential pitfalls, encourage scrutiny, and support better-informed Agile scaling decisions.
 aliases:
   - /safe-decision-makers/latest
+  - /safe-decision-makers/details
 ---
