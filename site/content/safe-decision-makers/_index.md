@@ -1,5 +1,5 @@
 ---
-title: Information for decision-makers considering SAFe Framework.
+title: This is title.
 short_title: SAFe for Decision Makers
 description: >-
   Independent, evidence-based guide for decision-makers evaluating SAFe. Case
@@ -45,4 +45,5 @@ practitioner_description: >
 aliases:
   - /safe-decision-makers/latest
   - /safe-decision-makers/details
+draft: false
 ---
