@@ -4,7 +4,7 @@ short_title: SAFe for Decision Makers
 description: >-
   Independent, evidence-based guide for decision-makers evaluating SAFe. Case
   studies, expert insights, and agile alternatives without vendor spin.
-Type: guide
+Type: this is type
 Layout: root
 brand:
   bg_colour: '#0656b1ff'
