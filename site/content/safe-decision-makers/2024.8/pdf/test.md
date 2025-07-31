@@ -1,4 +1,4 @@
 ---
-  title: 'test'
-  description: 'des'
+title: Test title.
+description: des
 ---
